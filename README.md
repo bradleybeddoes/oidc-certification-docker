@@ -38,7 +38,7 @@ Having built the image above run the following command:
 
 As things aren't quite stable yet this will:
 
-1. Start all required webservices
+1. Start Nginx and pending resolution of #1 start python web servers
 2. Provide you a bash prompt on the active docker instance allowing you to tweak
 issues - remember when you kill the image all changes disappear!.
 
@@ -48,7 +48,7 @@ The docker image has been populated with an instance of the oidc test server as
 part of it's creation. You can access these files at
 `/opt/oidc/oidctest_server_instance/`.
 
-To access the certification tooling open [http://localhost:8080](http://localhost:8080) in your browser.
+To access the setup tool open [http://localhost:8080](http://localhost:8080) in your browser.
 
 n.b. Issue 1 is currently preventing us from auto starting all the python web
 server bits, for now you'll need to exec run manually:
