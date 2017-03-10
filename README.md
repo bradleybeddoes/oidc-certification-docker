@@ -1,4 +1,4 @@
-# OpenID Connect OP certification docker image
+# OpenID Connect certification + Docker
 This is an early work in progress. 
 
 There are currently a few issues I am aware of and working on with others. 
